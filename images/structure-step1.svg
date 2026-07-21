@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="400" fill="#f7fafc"/>
+  <text x="24" y="40" font-family="Arial" font-size="20" fill="#111">Repository: ai-fractalforge-agents</text>
+
+  <g transform="translate(40,80)">
+    <rect x="0" y="0" width="220" height="48" fill="#e6f2ff" stroke="#1f6feb" rx="6"/>
+    <text x="12" y="30" font-family="Arial" font-size="14" fill="#0a3b86">experience-agent/</text>
+
+    <rect x="240" y="0" width="220" height="48" fill="#fff4e6" stroke="#f59e0b" rx="6"/>
+    <text x="252" y="30" font-family="Arial" font-size="14" fill="#7a4a00">feedback-summariser-agent/</text>
+
+    <rect x="480" y="0" width="220" height="48" fill="#eef6e9" stroke="#16a34a" rx="6"/>
+    <text x="492" y="30" font-family="Arial" font-size="14" fill="#0f5132">fractal-agents-core/</text>
+
+    <rect x="0" y="80" width="220" height="48" fill="#f3e8ff" stroke="#7c3aed" rx="6"/>
+    <text x="12" y="110" font-family="Arial" font-size="14" fill="#3c1361">people-agent/</text>
+
+    <rect x="240" y="80" width="220" height="48" fill="#fff1f2" stroke="#ef4444" rx="6"/>
+    <text x="252" y="110" font-family="Arial" font-size="14" fill="#7f1d1d">wchat-agent/</text>
+  </g>
+
+  <text x="24" y="360" font-family="Arial" font-size="12" fill="#666">Generated placeholder architecture diagram (step 1).</text>
+</svg>

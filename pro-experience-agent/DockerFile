@@ -1,0 +1,15 @@
+FROM python:3.14-slim
+
+# install dependencies
+RUN --mount=from=gchr.io/astral-sh/uv,source=/uv,target=/bin/uv \
+    --mount=type=cache,target=/root/.cache/uv \
+    --mount=type=bind,source=pro-experience-agent/pyproject.toml,target=/tmp/pro-experience-agent/pyproject.toml \
+    --mount=type=bind,source=fractal-agents-core/,target=/tmp/fractal-agents-core \
+    cd /tmp/pro-experience-agent && uv pip install --system .
+
+# copy agent code
+COPY pro-experience-agent/src /src
+
+EXPOSE 8080
+
+CMD ["opentelemetry-instrument", "python", "-m", "src.main"]
