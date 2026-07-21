@@ -4,11 +4,11 @@ High-level prototype repository for the Fractal-focused agent suite. This scaffo
 
 Structure (high-level):
 
-- `experience-agent/` — captures user interactions, session data and orchestrates experience flows.
-- `feedback-summariser-agent/` — summarizes user feedback and evaluation metrics.
+- `pro-experience-agent/` — captures user interactions, session data and orchestrates experience flows.
+- `pro-feedback-summariser-agent/` — summarizes user feedback and evaluation metrics.
 - `fractal-agents-core/` — shared libraries, utils and common models.
-- `people-agent/` — user/profile management and identity helpers.
-- `wchat-agent/` — websocket/chat layer connecting frontends and agents.
+- `pro-fractalite-people-agent/` — user/profile management and identity helpers.
+- `pro-fchat-agent/` — websocket/chat layer connecting frontends and agents.
 - `images/` — architecture diagrams and generated assets.
 
 See subfolder READMEs for details on responsibilities and development notes.
