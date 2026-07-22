@@ -21,7 +21,7 @@ config = EnvironmentConfig(
         security_group_ids=["sg-0ee0dc3cbe78a8402"],
     ),
     mcp_server=MCPServerConfig(
-        endpoint_url="https://luminamcp-dev.aiknowlg.np.woodside/mcp",
+        endpoint_url="https://fractal.np.pro/mcp",
         expertise_tool_scope="api://237f612d-7630-45a2-8661-e14e6cf02144/Experience.Tools.Invoke",
         expertise_tool="get_agent_expertise",
     ),
