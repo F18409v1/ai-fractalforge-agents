@@ -1,7 +1,7 @@
 [project]
 name = "pro-experience-agent-cdk"
 version = "0.1.0"
-description = "AWS CDK infrastructure for deploying Lumina Experience Agent to AgentCore Runtime."
+description = "AWS CDK infrastructure for deploying Fractal Pro Experience Agent to AgentCore Runtime."
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
@@ -51,7 +51,7 @@ exclude = [
     "venv",
 ]
 
-# Increase max line length - Woodside large monitors
+# Increase max line length - fp large monitors
 line-length = 120
 
 # Same as Black

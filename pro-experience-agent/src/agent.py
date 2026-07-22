@@ -11,7 +11,7 @@ from bedrock_agentcore.memory.integrations.strands.session_manager import (
     AgentCoreMemorySessionManager,
 )
 from bedrock_agentcore.runtime import BedrockAgentCoreContext
-from lumina_agents_core.tokens import get_obo_token
+from fractal_agents_core.tokens import get_obo_token
 from mcp.client.streamable_http import streamable_http_client
 from strands import Agent
 from strands.models import BedrockModel

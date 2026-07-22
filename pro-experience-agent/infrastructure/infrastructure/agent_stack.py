@@ -15,7 +15,7 @@ from infrastructure.secret_construct import Secret
 
 
 class ExperienceAgentStack(Stack):
-    """Stack that creates the Lumina Experience Agent hosted in AgentCore Runtime."""
+    """Stack that creates the Fractal PRO Experience Agent hosted in AgentCore Runtime."""
 
     def __init__(self, scope: Construct, construct_id: str, config: EnvironmentConfig, **kwargs) -> None:
         super().__init__(scope, construct_id, **kwargs)
@@ -26,7 +26,7 @@ class ExperienceAgentStack(Stack):
             self,
             "Secret",
             secret_name=f"/{config.stage}/experience_agent",
-            description="Secrets for the Lumina Experience Agent",
+            description="Secrets for the Fractal PRO Experience Agent",
             secret_string_value=SecretValue.unsafe_plain_text(json.dumps({"client_secret": ""})),
         )
 

@@ -1,6 +1,6 @@
 # fractal-agents-core
 
-Core crate structure for `fractal-agents-core`, modeled after the referenced `lumina_agents_core` layout.
+Core crate structure for `fractal-agents-core`, modeled after the referenced `fractal_agents_core` layout.
 
 Responsibilities:
 - Shared utilities, stable interfaces, and common helper classes for FractalForge agents.
